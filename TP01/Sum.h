@@ -7,18 +7,28 @@
 
 #include "Defs.h"
 
-/* Calcula, numa sequência de n números (n > 0), para cada subsequência de m números (m <= n, m > 0),
- * o índice i a partir do qual a soma s dos valores dessa subsequência é mínimo.
+/* Calcula, numa sequï¿½ncia de n nï¿½meros (n > 0), para cada subsequï¿½ncia de m nï¿½meros (m <= n, m > 0),
+ * o ï¿½ndice i a partir do qual a soma s dos valores dessa subsequï¿½ncia ï¿½ mï¿½nimo.
  *
  * Argumentos:
- * 	sequence - Array com a sequência
- * 	size - Tamanho da sequência
+ * 	sequence - Array com a sequï¿½ncia
+ * 	size - Tamanho da sequï¿½ncia
  *
  * Devolve:
- * Uma string que contém com a indicação do índice i e somatório s, para cada m
+ * Uma string que contï¿½m com a indicaï¿½ï¿½o do ï¿½ndice i e somatï¿½rio s, para cada m
  * i[0],s[0];i[1],s[1],i[2],s[2]...
  * Exemplo: 1,4;9,1;11,2;18,1;22,0;
  */
 string calcSum(int* sequence, int size);
+
+/*
+ * Return a pair with < Sum , Index >
+ */
+pair<int,int> getMinSum(int* sequence, int sequencSize, int subSequenceLength);
+
+/*
+ * Parse the pair from getMinSum to a string
+ */
+string parsePairToString(const pair<int,int> & resPair);
 
 #endif /* SUM_H_ */
