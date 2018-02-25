@@ -1,9 +1,3 @@
-# CAL 2017/18
-
-This repository contains solved exercises / sample problem solutions from the Curricular Unit "Conceção e Análise de Algorítmos" (Algorithms Analisys and Conception) from the Integrated Master's Degree in Computer Engineering at FEUP.
-
-In this curricular unit we use C++ for projects conception and algorithms testing.
-
 # Conceção e Análise de Algorítmos / Algorithms Analysis and Conception 2017-2018
 Exercises solutions for the CAL curricular unit.
 <br/><b>Final Grade: TO BE DETERMINED</b>
