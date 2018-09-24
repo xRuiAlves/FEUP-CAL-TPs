@@ -1,6 +1,6 @@
 # Conceção e Análise de Algorítmos / Algorithms Analysis and Conception 2017-2018
 Exercises solutions for the CAL curricular unit.
-<br/><b>Final Grade: TO BE DETERMINED</b>
+<br/><b>Final Grade: 19</b>
 
 ### Project Infos
 * **Date:** 2nd Year, 2nd Semester, 2017/2018
